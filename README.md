@@ -1,7 +1,7 @@
 
 
 ## React Todo-app 
-
+[![Link to site](https://img.shields.io/badge/link-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://b-khan7276.github.io/react-todo/)
  ### To Download react app   
     - $git clone https://github.com/b-khan7276/react-todo.git
     - $cd react-todo
