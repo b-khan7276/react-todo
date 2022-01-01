@@ -1,4 +1,5 @@
 
+
 ## React Todo-app 
 
  ### To Download react app   
@@ -27,4 +28,19 @@
 ## Some concepts of react js
 
 ## props
-    
+    " props are used to pass data from parents components to child 
+    components.
+    - we can pass one than one values "
+### Types of props
+    - Proptypes:
+      "  
+        Header.proptypes ={
+            title: Proptypes.string
+            }
+       " 
+    - Defaultprops:
+        "
+        title:"Your title here"
+        
+        "
+
