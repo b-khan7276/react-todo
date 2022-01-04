@@ -45,3 +45,72 @@
         "
 ### useState || Hooks
     The React useState Hook allows us to track state in a function component.
+- You can only use hooks inside a funtional components
+- You can not use hooks in a class components
+- You can not use hooks inside the if statements
+- You can not use hooks in loops, it  can be nested
+
+## How to use useState Hook:
+- `const [count, setCount] = useState(4); `
+- useState is consist of array which will have two values
+# Different ways to use `usete`:
+- Method 1:
+
+```javascript
+
+import React,{useState} from 'react';
+
+
+export default function App() {
+const [count, setCounter]= useState(0)
+
+function dCount(){
+  setCounter(prevaule=> prevaule -1);
+}
+function iCount(){
+  setCounter(prevaule=> prevaule +1);
+}
+  return (
+ <>
+<button onClick={dCount}>-</button>
+<span>{count}</span>
+<button onClick={iCount}>+</button>
+
+</>
+  );
+}
+
+```
+
+- Method 2:
+```javascript
+
+
+import React,{useState} from 'react';
+
+
+function countInitial(){
+  console.log('run function')
+  return 4
+}
+export default function App() {
+const [count, setCounter]= useState(()=> countInitial())
+
+function dCount(){
+  setCounter(prevaule=> prevaule -1);
+}
+function iCount(){
+  setCounter(prevaule=> prevaule +1);
+}
+  return (
+ <>
+<button onClick={dCount}>-</button>
+<span>{count}</span>
+<button onClick={iCount}>+</button>
+
+</>
+  );
+}
+
+
+```
