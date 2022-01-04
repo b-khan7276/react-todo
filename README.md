@@ -53,7 +53,7 @@
 ## How to use useState Hook:
 - `const [count, setCount] = useState(4); `
 - useState is consist of array which will have two values
-# Different ways to use `usete`:
+# Different ways to use `usestate`:
 - Method 1:
 
 ```javascript
@@ -114,3 +114,8 @@ function iCount(){
 
 
 ```
+
+# useEffect
+
+
+
